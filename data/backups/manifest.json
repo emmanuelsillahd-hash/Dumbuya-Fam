@@ -1,0 +1,9 @@
+{
+  "backupFile": "/app/applet/data/backups/familyos-shared-store.pre-3.2.bak.json",
+  "sourceFile": "/app/applet/data/familyos-shared-store.json",
+  "sha256": "02bdf02954e78adc71dcb02f9dd8bcbf6581f343901e1aa4ab047ff8d2cdb596",
+  "createdAt": 1793806668826,
+  "accountCount": 6,
+  "transactionCount": 17,
+  "netWorthCents": 12389051
+}

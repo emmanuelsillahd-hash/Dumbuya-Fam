@@ -1,0 +1,142 @@
+{
+  "workspace": {
+    "id": "fam-1",
+    "name": "The Henderson Household",
+    "currencyCode": "USD",
+    "version": 3,
+    "updatedAt": 1793556619412
+  },
+  "accounts": [
+    {
+      "id": "acc-1",
+      "familyId": "fam-1",
+      "name": "Household Main Checking",
+      "accountType": "CHECKING",
+      "currentBalanceCents": 845250,
+      "isLiability": false,
+      "institution": "Chase"
+    },
+    {
+      "id": "acc-2",
+      "familyId": "fam-1",
+      "name": "High-Yield Family Savings",
+      "accountType": "SAVINGS",
+      "currentBalanceCents": 3420000,
+      "isLiability": false,
+      "institution": "Marcus"
+    },
+    {
+      "id": "acc-3",
+      "familyId": "fam-1",
+      "name": "Family Investment Portfolio",
+      "accountType": "INVESTMENT",
+      "currentBalanceCents": 10574750,
+      "isLiability": false,
+      "institution": "Vanguard"
+    },
+    {
+      "id": "acc-4",
+      "familyId": "fam-1",
+      "name": "Household Rewards Card",
+      "accountType": "CREDIT_CARD",
+      "currentBalanceCents": -184200,
+      "isLiability": true,
+      "institution": "Amex"
+    },
+    {
+      "id": "acc-5",
+      "familyId": "fam-1",
+      "name": "Family Auto Loan",
+      "accountType": "LOAN",
+      "currentBalanceCents": -2115800,
+      "isLiability": true,
+      "institution": "Credit Union"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "b-1",
+      "familyId": "fam-1",
+      "category": "FOOD",
+      "allocatedCents": 120000,
+      "spentCents": 84500,
+      "alertThresholdPercentage": 85
+    },
+    {
+      "id": "b-2",
+      "familyId": "fam-1",
+      "category": "HOUSING",
+      "allocatedCents": 240000,
+      "spentCents": 235000,
+      "alertThresholdPercentage": 85
+    },
+    {
+      "id": "b-3",
+      "familyId": "fam-1",
+      "category": "TRANSPORT",
+      "allocatedCents": 45000,
+      "spentCents": 31000,
+      "alertThresholdPercentage": 85
+    },
+    {
+      "id": "b-4",
+      "familyId": "fam-1",
+      "category": "DINING",
+      "allocatedCents": 35000,
+      "spentCents": 38500,
+      "alertThresholdPercentage": 85
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1",
+      "familyId": "fam-1",
+      "accountId": "acc-1",
+      "title": "Organic Valley Weekly Grocery",
+      "amountCents": 14250,
+      "transactionType": "EXPENSE",
+      "category": "FOOD",
+      "transactionDate": 1793553019412,
+      "isReversal": false,
+      "reversalOfId": null,
+      "paidBy": "Sarah"
+    },
+    {
+      "id": "tx-2",
+      "familyId": "fam-1",
+      "accountId": "acc-1",
+      "title": "Monthly Household Salary Deposit",
+      "amountCents": 425000,
+      "transactionType": "INCOME",
+      "category": "SALARY",
+      "transactionDate": 1793470219412,
+      "isReversal": false,
+      "reversalOfId": null,
+      "paidBy": "David"
+    },
+    {
+      "id": "tx-3",
+      "familyId": "fam-1",
+      "accountId": "acc-1",
+      "title": "City Water & Electric Utility",
+      "amountCents": 18500,
+      "transactionType": "EXPENSE",
+      "category": "HOUSING",
+      "transactionDate": 1793383819412,
+      "isReversal": false,
+      "reversalOfId": null,
+      "paidBy": "Sarah"
+    }
+  ],
+  "processedIdempotencyKeys": {},
+  "auditEvents": [
+    {
+      "id": "aud-1",
+      "familyId": "fam-1",
+      "actorRole": "OWNER",
+      "actionType": "SYSTEM_INIT",
+      "summary": "Initialized shared FamilyOS v3 authoritative store",
+      "createdAt": 1793556619412
+    }
+  ]
+}
